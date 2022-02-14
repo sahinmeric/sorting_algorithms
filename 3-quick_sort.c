@@ -10,7 +10,7 @@ void swap(int *a, int *b)
 {
 	int tmp = *a;
 	*a = *b;
-	*b = t;
+	*b = tmp;
 }
 /**
  * partition - sort an array based on a pivot on the last position
